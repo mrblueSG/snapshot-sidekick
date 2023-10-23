@@ -26,7 +26,7 @@ _This project does not require a database, but requires a [storage engine](#stor
 
 ### Configuration
 
-Copy `.env.example`, rename it to `.env` and edit the hub API url in the `.env` file if needed
+Copy `.env.example`, rename it to `.env` and edit the hub API url in the `.env` file if needed. Check 
 
 ```bash
 HUB_URL=https://hub.snapshot.org
@@ -99,7 +99,7 @@ yarn typecheck
 
 Generate and serve votes CSV report for closed proposals.
 
-> NOTE: CSV files are generated only once, then cached, making this service a cache middleware between snapshot-hub and UI
+> NOTE: CSV files are generated only once, then cached, making this service a cache middleware between snapshot-hub and UI. Highlight. 
 
 #### Fetch a cache file
 
